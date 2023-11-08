@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "start": "bun --watch index.js "
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.4",
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.33",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.2",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "fast-csv": "^4.3.6",
+    "fs": "^0.0.1-security",
+    "pg": "^8.11.3"
+  }
+}

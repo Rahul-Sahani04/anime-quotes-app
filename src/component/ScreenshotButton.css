@@ -1,0 +1,17 @@
+.newToolTip {
+    position: absolute;
+    width: 50px;
+
+    left: -7px;
+    font-weight: 600;
+    color: antiquewhite;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+.d-button{
+    transition: all 300ms ease-in-out;
+}
+.d-button:hover .newToolTip {
+    transform: translateY(-40px);
+    opacity: 1;
+}

@@ -1,0 +1,3 @@
+Generate a csv data that has anime quotes with the character that said it and from which anime it is:
+Data example:
+id, quote, character name, anime name
