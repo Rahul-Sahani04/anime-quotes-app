@@ -1,4 +1,5 @@
-# Anime Quotes App README
+# Anime Quotes App
+<img src="https://giffiles.alphacoders.com/124/124497.gif" width="200">
 
 ## Table of Contents
 - [Introduction](#introduction)
