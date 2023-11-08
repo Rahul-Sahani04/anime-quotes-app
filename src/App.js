@@ -100,7 +100,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="flex justify-evenly items-center w-1/6 top-left-icons absolute top-4 right-10">
+      <div className="flex justify-evenly items-center xl:w-1/6 lg:w-1/6 md:w-2/6 sm:w-2/6 w-3/6 top-left-icons absolute top-4 right-10">
         {ContactList.map((item) => (
           <ContactButton
             key={item.username}
