@@ -117,7 +117,7 @@ function App() {
           <span className="loader"></span>
         ) : (
           <div className="mockup-window border bg-base-300 w-3/4 relative " id="divToCapture">
-            <div className="flex justify-center px-4 py-16 bg-base-200 h-full text-2xl quoteText">
+            <div className="flex justify-center px-4 py-16 items-center align-middle bg-base-200 h-full xl:text-2xl lg:text-2xl md:text-xl sm:text-lg quoteText">
               <p
                 style={{
                   width: "80%",
@@ -128,10 +128,10 @@ function App() {
               </p>
             </div>
             <ScreenshotButton/>
-            <div className="w-full text-right absolute bottom-6 right-24 font-sans text-xl font-bold">
+            <div className="w-full text-right absolute bottom-6 right-24 font-sans text-sm font-bold sm:text-sm xl:text-xl lg:text-lg md:text-base">
               {quotes.anime_name}
             </div>
-            <div className="w-full text-right absolute bottom-2 right-24">
+            <div className="w-full text-right absolute bottom-2 right-24 text-sm sm:text-sm xl:text-xl lg:text-lg md:text-base">
               {quotes.character_name}
             </div>
             <div className="w-[60px] h-[60px] absolute bottom-2 right-2 rounded-full overflow-clip">
