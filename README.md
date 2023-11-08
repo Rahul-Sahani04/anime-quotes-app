@@ -31,7 +31,7 @@ Follow these steps to set up and run the Anime Quotes App:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone [[repository-url]](https://github.com/Rahul-Sahani04/anime-quotes-app.git)https://github.com/Rahul-Sahani04/anime-quotes-app.git
+   git clone https://github.com/Rahul-Sahani04/anime-quotes-app.git
    ```
 
 2. Install the required packages and dependencies using npm or yarn:
